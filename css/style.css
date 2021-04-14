@@ -849,7 +849,9 @@ ul, ol {
 
 .blog__item.latest__item:hover {
   border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
+  /* background: url(../img/blog/blog-1.jpg); */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(75, 74, 74) 100%);
   background-size: cover;
 }
 
@@ -1492,7 +1494,9 @@ ul, ol {
 
 .blog__item:hover {
   border: 1px solid transparent !important;
-  background: url(../img/blog/blog-2.jpg) no-repeat;
+  /* background: url(../img/blog/blog-2.jpg) no-repeat; */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(70, 69, 69) 100%);
   background-size: cover;
 }
 
@@ -2322,7 +2326,6 @@ ul, ol {
   height: 65px;
 }
 
-
-.technology .technology_part h4{
+.technology .technology_part h4 {
   color: #ffffff;
 }
