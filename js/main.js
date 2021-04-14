@@ -47,16 +47,17 @@
     });
 
     /*------------------
-		Navigation
-	--------------------*/
+        Navigation
+    --------------------*/
     $(".mobile-menu").slicknav({
         prependTo: '#mobile-menu-wrap',
-        allowParentLinks: true
+        allowParentLinks: true,
+        label: '',
     });
 
     /*------------------
-		Hero Slider
-	--------------------*/
+        Hero Slider
+    --------------------*/
     $('.hero__slider').owlCarousel({
         loop: true,
         dots: true,
